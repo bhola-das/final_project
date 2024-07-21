@@ -4,21 +4,21 @@ import Typed from 'react-typed';
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full h-screen bg-[black] max-w-7xl">
-            <div className='flex flex-wrap justify-center gap-80 pt-40 border-separate'>
-             <div className=' font-bold text-[white]'>
+        <div className="mx-auto w-full h-screen   bg-[black] max-w-7xl ">
+            <div className='flex flex-row  justify-center items-center gap-30 pt-40 border-separate '>
+             <div className=' font-bold text-[white] w-[50%]'>
                <h1 className='text-4xl '>Hello, Myself</h1> 
                <h1 className='text-6xl my-2 text-emerald-400'>Bhola Das</h1>
                <h1 className='text-2xl mb-7 text-orange-600'> 
                <Typed 
-               strings={["And I'm Full Stack Web Devloper"]}
+               strings={["I'M a Full Stack Web Devloper And Problem Solver"]}
                typeSpeed={120}
                loop={true}
                backSpeed={100}
                />
                 </h1>
-               <div className="flex mt-4 space-x-5  sm:mt-0 ">
-                        <Link to="#" className="text-gray-500 hover:text-gray-900">
+               <div className=" flex mt-4 space-x-5  sm:mt-0 ">
+                        <Link to="#" className="text-blue-500 hover:text-gray-900">
                             <svg
                                 className="w-8 h-8 bg-slate-100 rounded-full p-1 hover:bg-teal-200"
                                 aria-hidden="true"
@@ -34,7 +34,7 @@ export default function Home() {
                             </svg>
                             <span className="sr-only">Facebook page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-blue-500">
                             <svg
                                 className="w-8 h-8 bg-slate-100 rounded-full p-1 hover:bg-teal-200"
                                 aria-hidden="true"
@@ -46,7 +46,7 @@ export default function Home() {
                             </svg>
                             <span className="sr-only">Discord community</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-blue-500">
                             <svg
                                 className="w-8 h-8 bg-slate-100 rounded-full p-1 hover:bg-teal-200"
                                 aria-hidden="true"
@@ -62,7 +62,7 @@ export default function Home() {
                             </svg>
                             <span className="sr-only">Twitter page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="https://github.com/bhola-das" className="text-blue-500">
                             <svg
                                 className="w-8 h-8 bg-slate-100 rounded-full p-1 hover:bg-teal-200"
                                 aria-hidden="true"
@@ -78,26 +78,26 @@ export default function Home() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
-                            <svg
-                                className="w-8 h-8 bg-slate-100 rounded-full p-1 hover:bg-teal-200"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
+                        <Link to="https://www.linkedin.com/in/bhola-das-6aa8b5231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-blue-500">
+                        <svg
+                              className="w-8 h-8 bg-slate-100 rounded-full p-1 hover:bg-teal-200"
+                              aria-hidden="true"
+                               xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                             viewBox="0 0 24 24"
                             >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
-                                    clip-rule="evenodd"
-                                />
+                           <path
+                             fillRule="evenodd"
+                            d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zm-13.8 20.54H4.56V9h3.87v11.54zM6.84 7.48a2.26 2.26 0 11.01-4.52 2.26 2.26 0 010 4.52zm14.44 13.06h-3.86v-5.98c0-1.43-.03-3.26-1.99-3.26-2 0-2.31 1.55-2.31 3.15v6.09h-3.87V9h3.72v1.57h.05c.52-.99 1.78-2.04 3.66-2.04 3.92 0 4.65 2.58 4.65 5.94v6.07z"
+                              clipRule="evenodd"
+                            />
                             </svg>
                             <span className="sr-only">Dribbble account</span>
                         </Link>
                     </div>
              </div>
-             <div className='h-35 w-35'>
-             <img className='w-60 h-60 rounded-full' src="https://images.pexels.com/photos/19567999/pexels-photo-19567999.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
+             <div className='h-35 w-35 '>
+             <img className='w-60 h-60 rounded-full' src="https://images.pexels.com/photos/27298433/pexels-photo-27298433.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
              </div>
             </div>
             
