@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Typed from 'react-typed';
 
 export default function Home() {
     return (
@@ -10,12 +9,7 @@ export default function Home() {
                <h1 className='text-4xl '>Hello, Myself</h1> 
                <h1 className='text-6xl my-2 text-emerald-400'>Bhola Das</h1>
                <h1 className='text-2xl mb-7 text-orange-600'> 
-               <Typed 
-               strings={["I'M a Full Stack Web Devloper And Problem Solver"]}
-               typeSpeed={120}
-               loop={true}
-               backSpeed={100}
-               />
+                I'M a Full Stack Web Devloper And Problem Solver
                 </h1>
                <div className=" flex mt-4 space-x-5  sm:mt-0 ">
                         <Link to="#" className="text-blue-500 hover:text-gray-900">
